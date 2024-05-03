@@ -50,6 +50,8 @@ nav {
 #menu li {
     flex: 1;
     text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
 #menu a {
