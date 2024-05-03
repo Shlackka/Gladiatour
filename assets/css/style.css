@@ -14,7 +14,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ff0000; 
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url(../images/main-heading-background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #daa520;
     font-family: 'Cinzel', serif;
     font-size: 8em;
