@@ -21,7 +21,7 @@ body {
 header {
     background-color: #daa520;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
     box-shadow: 0 4px 4px #3a3a3a;
     padding: 0;
@@ -33,25 +33,30 @@ header {
 
 /* Nav bar styling */
 nav {
+    background-color: #daa520;
     width: 100%;
-    align-items: center;
+    box-shadow: 0 4px 4px #3a3a3a;
+    display: none;
+    top: 100%;
+    margin-top: 56.8px;
 }
 
 #menu {
     display: flex;
-    justify-content: space-between;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-bottom: 2px;
     align-items: center;
-    height: 57px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 #menu li {
     flex: 1;
     text-align: center;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    align-items: center;
 }
 
 #menu a {
@@ -61,8 +66,34 @@ nav {
     transition: color;
 }
 
-#menu a:hover {
-    color: rgba(255, 0, 0, 1);
+/* Dropdown toggle styling */
+#menu-toggle {
+    visibility: hidden;
+    position: absolute;
+}
+
+.menu-toggle-label {
+    position: absolute;
+}
+
+#menu-toggle:checked~nav {
+    display: flex;
+}
+
+#dropdown-icon {
+    display: flex;
+    font-size: 2em;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropdown-icon h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 5px;
 }
 
 /* Styling for main heading */
@@ -102,6 +133,52 @@ nav {
 @media screen and (min-width: 768px) {
     #main-heading {
         font-size: 6.5em;
+    }
+    
+    /* Nav bar styling */
+    nav {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        height: 57px;
+        flex-direction: row;
+    }
+    
+    #menu li {
+        flex: 1;
+        text-align: center;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: #3a3a3a;
+        font-size: 2em;
+        transition: color;
+    }
+    
+    #menu a:hover {
+        color: rgba(255, 0, 0, 1);
+    }
+
+    /* Menu toggle styling */
+    .menu-toggle-label {
+        display: none;
+    }
+
+    #menu-toggle {
+        display: none;
     }
 }
 
