@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+/* General styling */
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color: #3a3a3a;
+}
+
 /* Styling for main heading */
 #main-heading {
     height: 40vh; 
