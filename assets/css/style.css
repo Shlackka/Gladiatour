@@ -56,6 +56,11 @@ nav {
     text-decoration: none;
     color: #3a3a3a;
     font-size: 2em;
+    transition: color;
+}
+
+#menu a:hover {
+    color: rgba(255, 0, 0, 1);
 }
 
 /* Styling for main heading */
