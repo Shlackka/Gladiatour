@@ -7,3 +7,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Styling for main heading */
+.main-heading {
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff0000; 
+    color: #daa520;
+    font-family: 'Cinzel', serif;
+    font-size: 8em;
+    text-align: center;
+    text-transform: uppercase;
+}
