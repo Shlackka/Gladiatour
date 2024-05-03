@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 4px 4px #3a3a3a;
-    padding: 0 rem;
+    padding: 0;
     z-index: 10;
     position: fixed;
     width: 100%;
