@@ -17,6 +17,19 @@ body {
     color: #3a3a3a;
 }
 
+/* Header styling */
+header {
+    background-color: #daa520;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 4px 4px #3a3a3a;
+    padding: 0 rem;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
 /* Styling for main heading */
 #main-heading {
     height: 40vh; 
@@ -32,4 +45,5 @@ body {
     font-size: 8em;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 57px;
 }
