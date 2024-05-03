@@ -93,7 +93,9 @@ nav {
 
 /* Media query: large or lanscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
+    #main-heading {
+        font-size: 4.5em;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
