@@ -41,6 +41,10 @@ nav {
     margin-top: 56.8px;
 }
 
+nav ul li a {
+    color: #3a3a3a;
+}
+
 #menu {
     display: flex;
     list-style: none;
@@ -57,13 +61,18 @@ nav {
     text-align: center;
     align-items: center;
     border-bottom: #3a3a3a solid 2px;
+    margin-bottom: 3px;
 }
 
 #menu a {
     text-decoration: none;
-    color: #3a3a3a;
+    
     font-size: 2em;
     transition: color;
+}
+
+.active {
+    color: rgba(255, 0, 0, .5);
 }
 
 /* Dropdown toggle styling */
@@ -74,6 +83,8 @@ nav {
 
 .menu-toggle-label {
     position: absolute;
+    height: 57px;
+    width: 100%;
 }
 
 #menu-toggle:checked~nav {
@@ -102,7 +113,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url(../images/main-heading-background.webp);
+    background: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(../images/main-heading-background.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,13 +175,12 @@ nav {
     
     #menu a {
         text-decoration: none;
-        color: #3a3a3a;
         font-size: 2em;
         transition: color;
     }
     
     #menu a:hover {
-        color: rgba(255, 0, 0, 1);
+        color: rgba(255, 0, 0, .5);
     }
 
     /* Menu toggle styling */
