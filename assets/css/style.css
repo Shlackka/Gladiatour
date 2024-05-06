@@ -122,14 +122,22 @@ nav ul li a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #daa520;
-    font-family: 'Cinzel', serif;
-    font-size: 3.5em;
     text-align: center;
     text-transform: uppercase;
     margin-top: 57px;
     text-shadow: 0 4px 4px #3a3a3a;
-    transition: font-size 0.7s ease;
+    
+    flex-direction: column;
+}
+
+#main-heading h1 {
+    color: #daa520;
+    font-family: 'Cinzel', serif;
+    font-size: 3.5em;
+}
+
+#main-heading button {
+    align-items: center;
 }
 
 /* Main content styling */
@@ -175,14 +183,14 @@ main {
 
 /* Media query: large or lanscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #main-heading {
+    #main-heading h1{
         font-size: 4.5em;
     }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    #main-heading {
+    #main-heading h1{
         font-size: 6.5em;
     }
     
@@ -235,11 +243,12 @@ main {
 
 /* media query: larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #main-heading {
+    #main-heading h1{
         font-size: 8em;
+        transition: font-size 0.7s ease;
     }
 
-    #main-heading:hover {
+    #main-heading h1:hover {
         font-size: 9em;    
     }
 }
