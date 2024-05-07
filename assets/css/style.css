@@ -177,16 +177,16 @@ main {
 #about h2 {
     background-color: rgba(0, 0, 0, .7);
     align-self: center;
-    width: 40%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 12.5%;
     font-weight: 400;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 #about p {
-    width: 40%;
-    margin-left: 30%;
+    width: 75%;
+    margin-left: 12.5%;
     background-color: rgba(0, 0, 0, .7);
     padding: 20px;
 }
@@ -199,6 +199,7 @@ main {
     border-radius: 20%;
     cursor: pointer;
     margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 110%;
     font-weight: 700;
     box-shadow: 0 0 5px 1px #ffffff;
@@ -299,6 +300,16 @@ main {
 
     #menu-toggle {
         display: none;
+    }
+
+    #about h2 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #about p {
+        width: 40%;
+        margin-left: 30%;
     }
 }
 
