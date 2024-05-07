@@ -147,11 +147,16 @@ main {
     flex: 1 0 auto;
     flex-direction: column;
     background-color: pink;
+    text-align: center;
+}
+
+#about {
+    color: #daa520;
+    font-size: 150%;
 }
 
 
 /* Footer styling */
-
 #socials {
     display: flex;
     background-color: #daa520;
