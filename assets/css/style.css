@@ -126,7 +126,6 @@ nav ul li a {
     text-transform: uppercase;
     margin-top: 57px;
     text-shadow: 0 4px 4px #3a3a3a;
-    
     flex-direction: column;
 }
 
@@ -182,6 +181,7 @@ main {
     margin-left: 30%;
     font-weight: 400;
     padding: 20px;
+    margin-top: 20px;
 }
 
 #about p {
@@ -189,6 +189,25 @@ main {
     margin-left: 30%;
     background-color: rgba(0, 0, 0, .7);
     padding: 20px;
+}
+
+.btn-primary {
+    background-color: #daa520;
+    color: rgba(255, 0, 0, 1);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 110%;
+    font-weight: 700;
+    box-shadow: 0 0 5px 1px #ffffff;
+    transition: box-shadow 0.4s;
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 5px 13px #ffffff;
+    scale: 1.10;
 }
 
 
