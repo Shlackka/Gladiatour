@@ -150,9 +150,29 @@ main {
     text-align: center;
 }
 
+.decorative-bar-top {
+    height: 1.5vh;
+    background-color: #daa520;
+    width: 100%;
+    box-shadow: 0 -4px 4px #3a3a3a;   
+}
+
+.decorative-bar-bottom {
+    height: 1.5vh;
+    background-color: #daa520;
+    width: 100%;
+    box-shadow: 0 4px 4px #3a3a3a;
+    z-index: 15;
+}
+
 #about {
     color: #daa520;
     font-size: 150%;
+    background-image: url(../images/about-section-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 
