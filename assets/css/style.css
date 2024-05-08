@@ -152,7 +152,7 @@ main {
 .decorative-bar-primary  {
     height: 3vh;
     background-image: linear-gradient(rgba(218, 165, 32, .7), rgba(218, 165, 32, .7)), url(../images/decorative-bar-gladiatour.webp.jpg);
-    background-size: 20%;
+    background-size: 28vh;
     background-position: center;
     box-shadow: 0 0 4px 4px #3a3a3a;
     z-index: 1;
@@ -187,8 +187,8 @@ main {
 }
 
 .btn-primary {
-    background-color: #daa520;
-    color: rgba(255, 0, 0, 1);
+    background-color: rgba(255, 0, 0, .8);
+    color: rgba(218, 165, 32, 1);
     padding: 10px 20px;
     border: none;
     border-radius: 20%;
@@ -196,9 +196,10 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 110%;
-    font-weight: 700;
+    font-weight: 600;
     box-shadow: 0 0 5px 1px #ffffff;
     transition: box-shadow 0.4s;
+    font-family: 'Cinzel', serif;
 }
 
 .btn-primary:hover {
