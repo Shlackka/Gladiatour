@@ -149,19 +149,13 @@ main {
     text-align: center;
 }
 
-.decorative-bar-top {
-    height: 1.5vh;
-    background-color: #daa520;
-    width: 100%;
-    box-shadow: 0 -4px 4px #3a3a3a;   
-}
-
-.decorative-bar-bottom {
-    height: 1.5vh;
-    background-color: #daa520;
-    width: 100%;
-    box-shadow: 0 4px 4px #3a3a3a;
-    z-index: 15;
+.decorative-bar-primary  {
+    height: 3vh;
+    background-image: linear-gradient(rgba(218, 165, 32, .7), rgba(218, 165, 32, .7)), url(../images/decorative-bar-gladiatour.webp.jpg);
+    background-size: 20%;
+    background-position: center;
+    box-shadow: 0 0 4px 4px #3a3a3a;
+    z-index: 1;
 }
 
 #about {
