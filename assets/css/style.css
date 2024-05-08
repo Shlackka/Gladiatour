@@ -189,6 +189,7 @@ main {
     margin-left: 12.5%;
     background-color: rgba(0, 0, 0, .7);
     padding: 20px;
+    font-size: 80%;
 }
 
 .btn-primary {
@@ -198,8 +199,8 @@ main {
     border: none;
     border-radius: 20%;
     cursor: pointer;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 110%;
     font-weight: 700;
     box-shadow: 0 0 5px 1px #ffffff;
@@ -302,15 +303,7 @@ main {
         display: none;
     }
 
-    #about h2 {
-        width: 40%;
-        margin-left: 30%;
-    }
-
-    #about p {
-        width: 40%;
-        margin-left: 30%;
-    }
+    
 }
 
 /* media query: larger devices (laptops and desktops, 992px and up) */
@@ -322,5 +315,17 @@ main {
 
     #main-heading h1:hover {
         font-size: 9em;    
+    }
+
+    /* Main content styling */
+    #about h2 {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    #about p {
+        width: 40%;
+        margin-left: 30%;
+        font-size: 100%;
     }
 }
