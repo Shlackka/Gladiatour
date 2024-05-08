@@ -319,13 +319,13 @@ main {
 
     /* Main content styling */
     #about h2 {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
     }
 
     #about p {
-        width: 40%;
-        margin-left: 30%;
+        width: 50%;
+        margin-left: 25%;
         font-size: 100%;
     }
 }
