@@ -321,6 +321,7 @@ main {
     #about h2 {
         width: 50%;
         margin-left: 25%;
+        margin-top: 10vh;
     }
 
     #about p {
