@@ -218,7 +218,7 @@ main {
     width: 100%; 
     margin-bottom: 20px;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    box-shadow: 0 2px 5px #3a3a3a; 
 }
 
 #gladiators h3 {
@@ -232,14 +232,21 @@ main {
 }
 
 .pronunciation {
-    margin-bottom: 20px;
     text-decoration: underline;
     font-style: italic;
+}
+
+#gladiators audio {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 200px;
+    height: 25px;
 }
 
 #gladiators p {
     margin-bottom: 20px;
 }
+
 
 /* Footer styling */
 #socials {
