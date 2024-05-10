@@ -199,7 +199,7 @@ main {
     font-weight: 600;
     box-shadow: 0 0 5px 1px #ffffff;
     transition: box-shadow 0.4s;
-    font-family: 'Cinzel', serif;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
