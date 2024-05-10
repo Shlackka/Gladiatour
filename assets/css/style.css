@@ -197,13 +197,13 @@ main {
     margin-bottom: 30px;
     font-size: 110%;
     font-weight: 600;
-    box-shadow: 0 0 5px 1px #ffffff;
+    box-shadow: 0 0 5px 1px rgba(218, 165, 32, .8);
     transition: box-shadow 0.4s;
     text-decoration: none;
 }
 
 .btn-primary:hover {
-    box-shadow: 0 0 5px 13px #ffffff;
+    box-shadow: 0 0 5px 13px rgba(218, 165, 32, .8);
     transform: scale(1.10);
 }
 
