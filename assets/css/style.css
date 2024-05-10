@@ -229,6 +229,7 @@ main {
 .glad-image {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 
 .pronunciation {
@@ -284,6 +285,24 @@ main {
     #main-heading h1{
         font-size: 4.5em;
     }
+
+    /* Main information styling */
+    #gladiators h3 {
+        font-size: 2em;
+    }
+
+    .glad-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pronunciation {
+        font-size: 1.2em;
+    }
+
+    #gladiators p {
+        font-size: 1.2em;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -338,7 +357,19 @@ main {
         display: none;
     }
 
-    
+    /* Main information styling */
+    .glad-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .pronunciation {
+        font-size: 1.5em;
+    }
+
+    #gladiators p {
+        font-size: 1.5em;
+    }
 }
 
 /* media query: larger devices (laptops and desktops, 992px and up) */
