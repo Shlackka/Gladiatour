@@ -139,7 +139,7 @@ nav ul li a {
     align-items: center;
 }
 
-/* Main content styling */
+/* Main index content styling */
 main {
     display: flex;
     flex: 1 0 auto;
@@ -207,6 +207,19 @@ main {
     transform: scale(1.10);
 }
 
+/* Main information page styling */
+#gladiators {
+    background-color: #3a3a3a;
+    height: 100%;
+    color: #daa520;
+}
+
+.gladiators {
+    width: 100%; 
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
 
 /* Footer styling */
 #socials {
