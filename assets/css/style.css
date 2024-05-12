@@ -126,6 +126,9 @@ nav ul li a {
     margin-top: 57px;
     text-shadow: 0 4px 4px #3a3a3a;
     flex-direction: column;
+}
+
+#main-heading h1 {
     color: #daa520;
     font-family: 'Cinzel', serif;
     font-size: 3.5em;
@@ -138,8 +141,8 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(../images/main-heading-background.webp);
-    background-position: center;
+    background: linear-gradient(rgba(255, 0, 0, .7), rgba(255, 0, 0, .7)), url(../images/information-section-background.webp);
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -147,9 +150,12 @@ nav ul li a {
     margin-top: 57px;
     text-shadow: 0 4px 4px #3a3a3a;
     flex-direction: column;
+}
+
+#main-heading-info h1 {
     color: #daa520;
     font-family: 'Cinzel', serif;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: 400;
 }
 
@@ -325,8 +331,16 @@ main {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Main heading styling */
     #main-heading h1{
         font-size: 6.5em;
+    }
+
+    #main-heading-info h1 {
+        color: #daa520;
+        font-family: 'Cinzel', serif;
+        font-size: 5em;
+        font-weight: 400;
     }
     
     /* Nav bar styling */
