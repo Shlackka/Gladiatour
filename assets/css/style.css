@@ -294,8 +294,9 @@ main {
 
 #signup-form {
     background-color: rgba(0, 0, 0, .7);
-    height: 30vh;
+    height: 35vh;
     width: 80vw;
+    min-height: 375px;
     max-width: 500px;
     color: #daa520;
     line-height: 2.5;
