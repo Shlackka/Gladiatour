@@ -126,17 +126,31 @@ nav ul li a {
     margin-top: 57px;
     text-shadow: 0 4px 4px #3a3a3a;
     flex-direction: column;
-}
-
-#main-heading h1 {
     color: #daa520;
     font-family: 'Cinzel', serif;
     font-size: 3.5em;
     font-weight: 400;
 }
 
-#main-heading button {
+/* Styling for main heading information page */
+#main-heading-info {
+    height: 20vh; 
+    display: flex;
+    justify-content: center;
     align-items: center;
+    background: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(../images/main-heading-background.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 57px;
+    text-shadow: 0 4px 4px #3a3a3a;
+    flex-direction: column;
+    color: #daa520;
+    font-family: 'Cinzel', serif;
+    font-size: 3.5em;
+    font-weight: 400;
 }
 
 /* Main index content styling */
