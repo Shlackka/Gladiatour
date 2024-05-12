@@ -141,7 +141,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(255, 0, 0, .7), rgba(255, 0, 0, .7)), url(../images/information-section-background.webp);
+    background-image: linear-gradient(rgba(255, 0, 0, .7), rgba(255, 0, 0, .7)), url(../images/information-section-background.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -278,6 +278,52 @@ main {
     border: none;
     padding-bottom: 0;
 }
+
+/* Sign up form styling */
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(../images/signup-form-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 57px;
+}
+
+#signup-form {
+    background-color: rgba(0, 0, 0, .7);
+    height: 30vh;
+    width: 80vw;
+    max-width: 500px;
+    color: #daa520;
+    line-height: 2.5;
+    margin-bottom: 10%;
+    border-radius: 10%;
+}
+
+.text-input {
+    background-color: rgba(255, 0, 0, .5);
+    color: #daa520;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #daa520;
+    border-radius: 15%;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.signup-button {
+    margin-top: 20px;
+    border-radius: 15%;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgba(255, 0, 0, .5);
+    color: #daa520;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 
 /* Footer styling */
