@@ -297,6 +297,7 @@ main {
     height: 35vh;
     width: 80vw;
     min-height: 375px;
+    max-height: 400px;
     max-width: 500px;
     color: #daa520;
     line-height: 2.5;
