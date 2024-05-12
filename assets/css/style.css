@@ -304,7 +304,7 @@ main {
 }
 
 .text-input {
-    background-color: rgba(255, 0, 0, .5);
+    background-color: rgba(255, 0, 0, .8);
     color: #daa520;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -314,14 +314,34 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-.signup-button {
-    margin-top: 20px;
-    border-radius: 15%;
-    padding: 15px 32px;
-    font-size: 100%;
-    background-color: rgba(255, 0, 0, .5);
+/* Thank you page styling */
+#thank-you {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url(../images/signup-form-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 57px;
+}
+
+#thank-you h1 {
+    font-size: 3em;
     color: #daa520;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-weight: 200;
+    text-shadow: 0 4px 4px #3a3a3a;
+}
+
+#thank-you h3 {
+    margin-top: 3vh;
+    font-size: 1em;
+    color: #daa520;
+    text-shadow: 0 4px 4px #3a3a3a;
 }
 
 
@@ -454,6 +474,15 @@ main {
 
     #gladiators p {
         font-size: 1.5em;
+    }
+
+    /* Thank you page styling */
+    #thank-you h1 {
+        font-size: 5em;
+    }
+    
+    #thank-you h3 {
+        font-size: 1.8em;
     }
 }
 
