@@ -207,7 +207,7 @@ main {
 
 .btn-primary {
     display: inline-block;
-    background-color: rgba(255, 0, 0, .8);
+    background-color: rgba(255, 0, 0, 1);
     color: rgba(218, 165, 32, 1);
     padding: 10px 20px;
     border: none;
@@ -337,6 +337,7 @@ main {
     font-family: 'Cinzel', serif;
     font-weight: 200;
     text-shadow: 0 4px 4px #3a3a3a;
+    max-width: 90%;
 }
 
 #thank-you h3 {
@@ -344,9 +345,8 @@ main {
     font-size: 1em;
     color: #daa520;
     text-shadow: 0 4px 4px #3a3a3a;
+    max-width: 90%;
 }
-
-
 
 /* Footer styling */
 #socials {
