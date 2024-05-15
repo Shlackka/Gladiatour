@@ -1,6 +1,6 @@
 # Gladiatour
 
-![Responsive Mockup](https://github.com/Shlackka/Gladiatour/tree/main/assets/images/gladiatour-mockup.png)
+![Responsive Mockup](https://github.com/Shlackka/Gladiatour/raw/8b807b210313d65c57586bcf48504024f3412386/assets/images/gladiatour-mockup.png)
 
 ## Features
 
