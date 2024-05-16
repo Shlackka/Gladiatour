@@ -78,7 +78,14 @@ The biggest challenge that was faced during the testing of responsiveness, other
 
 ### Validator Testing
 
+- __HTML__
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshlackka.github.io%2FGladiatour%2F)
+- __CSS__
+    - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshlackka.github.io%2FGladiatour%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Unfixed Bugs
+
+To the best of my knowledge after testing all aspects of the site I have been unable to find any unfixed bugs.
 
 ## Deployment
 
