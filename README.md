@@ -61,9 +61,20 @@ Below I will go into a brief explanation of the features I have encorporated int
 
 ![Footer](assets/images/readme/footer.png)
 
-### Features Not Implemented
+### Features Not Yet Implemented
+
+- __Gladiator Dropdown__
+
+    - I had planned to implement a dropdown on the gladiators information page to work on smaller screens much like the nav menu.
+    - This would have only shown the relevant information for the chosen gladiator rather than having the whole page as a long scrollable page.
 
 ## Testing
+
+During the whole development cycle I have been making sure to test each new feature from a minimum mobile size of 400px up to standard desktop and laptop sizes.
+As seen above, the major changes between mobile and desktop sizes are the main nav bar dropdown feature which will trigger when being accessed on tablet size screens and smaller. The other responsive features are the size of fonts for all main content and headings, this has been tested thoroughly across all pages to make sure the users will have the best experience regardless of screen size.
+
+The biggest challenge that was faced during the testing of responsiveness, other than the main nav bar, was the sign up form, which I wished to keep the same overall feel without changing the layout of the form too much, if at all.
+
 
 ### Validator Testing
 
