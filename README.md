@@ -6,6 +6,30 @@ My hope is that with the information provided, and the way in which it is presen
 
 ![Responsive Mockup](assets/images/readme/gladiatour-mockup.png)
 
+## Design
+
+Please see below the original mockups of the site made using Balsamiq Wireframes.
+
+- Site Layout Draft
+
+![Site Layout Draft](assets/images/readme/layout-draft-gladiatour.png)
+
+- Main Page Mockup
+
+![Main Page Mockup](assets/images/readme/main-page-draft-gladiatour.png)
+
+- Information Page Mockup
+
+![Information Page Mockup](assets/images/readme/information-page-draft-gladiatour.png)
+
+- Signup Page Mockup
+
+![Signup Page Mockup](assets/images/readme/signup-page-draft-gladiatour.png)
+
+- Thank You Page Mockup
+
+![Thank You Page Mockup](assets/images/readme/form-submission-page-draft-gladiatour.png)
+
 ## Features
 
 Below I will go into a brief explanation of the features I have encorporated into the site.
