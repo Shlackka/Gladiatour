@@ -377,7 +377,7 @@ main {
 }
 
 #socials i:hover {
-    color: rgba(255, 0, 0, .5);
+    color: rgba(255, 0, 0, 1);
 }
 
 #socials li {
