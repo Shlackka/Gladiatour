@@ -87,6 +87,13 @@ Below I will go into a brief explanation of the features I have encorporated int
 
 ![Footer](assets/images/readme/footer.png)
 
+- __404 Error Page__
+
+    - The 404 error page has been designed to be simple but stay within the design of the rest of the site.
+    - A button directing back to the main page has been implemented and has the same styling as all other primary buttons.
+
+![404 Error Page](assets/images/readme/error-page.png)
+
 ### Features Not Yet Implemented
 
 - __Gladiator Dropdown__
