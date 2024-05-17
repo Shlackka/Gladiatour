@@ -76,7 +76,7 @@ nav ul li a {
 }
 
 .active {
-    color: rgba(255, 0, 0, .5);
+    color: rgba(255, 0, 0, 1);
 }
 
 /* Dropdown toggle styling */
@@ -294,15 +294,19 @@ main {
 
 #signup-form {
     background-color: rgba(0, 0, 0, .7);
-    height: 35vh;
+    height: 45vh;
     width: 80vw;
     min-height: 375px;
-    max-height: 400px;
+    max-height: 450px;
     max-width: 500px;
     color: #daa520;
     line-height: 2.5;
     margin-bottom: 10%;
     border-radius: 10%;
+}
+
+#signup-form .btn-primary {
+    margin-top: 15px;
 }
 
 .text-input {
@@ -331,13 +335,19 @@ main {
     margin-top: 57px;
 }
 
+#thank-you-container {
+    background: rgba(0, 0, 0, .7);
+    border-radius: 10%;
+    max-width: 350px;
+}
+
 #thank-you h1 {
     font-size: 3em;
     color: #daa520;
     font-family: 'Cinzel', serif;
     font-weight: 200;
     text-shadow: 0 4px 4px #3a3a3a;
-    max-width: 90%;
+    margin: 15px;
 }
 
 #thank-you h3 {
@@ -345,7 +355,7 @@ main {
     font-size: 1em;
     color: #daa520;
     text-shadow: 0 4px 4px #3a3a3a;
-    max-width: 90%;
+    margin: 15px;
 }
 
 /* Footer styling */
@@ -452,7 +462,7 @@ main {
     }
     
     #menu a:hover {
-        color: rgba(255, 0, 0, .5);
+        color: rgba(255, 0, 0, 1);
     }
 
     /* Menu toggle styling */
@@ -478,7 +488,16 @@ main {
         font-size: 1.5em;
     }
 
+    /* Signup form styling */
+    #signup-form {
+        max-height: 400px;
+    }
+
     /* Thank you page styling */
+    #thank-you-container {
+        max-width: 90%;
+        border-radius: 10%;
+    }
     #thank-you h1 {
         font-size: 5em;
     }
