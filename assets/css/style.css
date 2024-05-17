@@ -389,6 +389,28 @@ main {
     margin-top: 10px;
 }
 
+/* 404 Error page styling */
+#error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    font-size: 2em;
+}
+
+#error h1, p{
+    margin: 15px;
+}
+
+#error-container {
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    color: #daa520;
+    border-radius: 30%;
+}
+
 /* Media query: large or lanscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #main-heading h1{
