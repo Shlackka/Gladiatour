@@ -20,6 +20,8 @@ Please see below the original mockups of the site made using Balsamiq Wireframes
 
 - Information Page Mockup
 
+    - The design for the information page has changed from my initial designs due to user feedback about ease of use and readability.
+
 ![Information Page Mockup](assets/images/readme/information-page-draft-gladiatour.png)
 
 - Signup Page Mockup
