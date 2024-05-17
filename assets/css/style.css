@@ -399,7 +399,7 @@ main {
     width: 100%;
     flex-direction: column;
     height: 100%;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 #error h1, p{
@@ -528,6 +528,11 @@ main {
     
     #thank-you h3 {
         font-size: 1.8em;
+    }
+
+    /* Error page styling */
+    #error {
+        font-size: 2em;
     }
 }
 
