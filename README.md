@@ -103,10 +103,21 @@ Below I will go into a brief explanation of the features I have encorporated int
 
 ## Testing
 
-During the whole development cycle I have been making sure to test each new feature from a minimum mobile size of 400px up to standard desktop and laptop sizes.
-As seen above, the major changes between mobile and desktop sizes are the main nav bar dropdown feature which will trigger when being accessed on tablet size screens and smaller. The other responsive features are the size of fonts for all main content and headings, this has been tested thoroughly across all pages to make sure the users will have the best experience regardless of screen size.
+Each feature of the site has been tested upon integration and also tested again upon completion of development, these tests will be outlined below.
 
-The biggest challenge that was faced during the testing of responsiveness, other than the main nav bar, was the sign up form, which I wished to keep the same overall feel without changing the layout of the form too much, if at all.
+    - The Nav bar was tested by confirming each link lead to the correct page which I can confirm is the case this was repeated for each page where the nav bar was present.
+
+    - The footer, similarly to the nav bar was tested by confirming each link lead to the correct social media page, this was repeated for every page with the footer bar.
+
+    - All buttons that are present within the site have been tested by confirming that once activated they perform the correct action, the button on the index leads to the information page and the buttons on the 404 and thank you pages leads back to the index page.
+
+    - The audio playback features on the information page have all been confirmed to play the correct audio clip for their relevant section. 
+
+    - The sign up form has had all inputs tested to confirm that they will request input when left empty with the email input specifically requestiong for an email format with an @ symbol.
+
+    - The submit button is confirmed to lead to the thank you page upon successful completion of all relevant inputs on the form.
+
+Along with feature testing I have also run lighthouse tests for both mobile and desktop screens, these have come back very positive as seen below with the screen captures.
 
 
 ### Validator Testing
