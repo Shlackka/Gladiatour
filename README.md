@@ -117,7 +117,19 @@ Each feature of the site has been tested upon integration and also tested again 
 
     - The submit button is confirmed to lead to the thank you page upon successful completion of all relevant inputs on the form.
 
-Along with feature testing I have also run lighthouse tests for both mobile and desktop screens, these have come back very positive as seen below with the screen captures.
+Along with feature testing I have also run lighthouse tests, these have come back very positive as seen below with the screen captures.
+
+- Lighthouse report for main page
+
+![Lighthouse Report Index](assets/images/readme/lighthouse-report-index.png)
+
+- Lighthouse report for information page
+
+![Lighthouse Report Information](assets/images/readme/lighthouse-report-information.png)
+
+- Lighthouse report for signup form page
+
+![Lighthouse Report Signup Form](assets/images/readme/lighthouse-report-signup-form.png)
 
 
 ### Validator Testing
