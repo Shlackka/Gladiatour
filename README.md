@@ -107,17 +107,17 @@ Below I will go into a brief explanation of the features I have encorporated int
 
 Each feature of the site has been tested upon integration and also tested again upon completion of development, these tests will be outlined below.
 
-    - The Nav bar was tested by confirming each link lead to the correct page which I can confirm is the case this was repeated for each page where the nav bar was present.
+- The Nav bar was tested by confirming each link lead to the correct page which I can confirm is the case this was repeated for each page where the nav bar was present.
 
-    - The footer, similarly to the nav bar was tested by confirming each link lead to the correct social media page, this was repeated for every page with the footer bar.
+- The footer, similarly to the nav bar was tested by confirming each link lead to the correct social media page, this was repeated for every page with the footer bar.
 
-    - All buttons that are present within the site have been tested by confirming that once activated they perform the correct action, the button on the index leads to the information page and the buttons on the 404 and thank you pages leads back to the index page.
+- All buttons that are present within the site have been tested by confirming that once activated they perform the correct action, the button on the index leads to the information page and the buttons on the 404 and thank you pages leads back to the index page.
 
-    - The audio playback features on the information page have all been confirmed to play the correct audio clip for their relevant section. 
+- The audio playback features on the information page have all been confirmed to play the correct audio clip for their relevant section. 
 
-    - The sign up form has had all inputs tested to confirm that they will request input when left empty with the email input specifically requestiong for an email format with an @ symbol.
+- The sign up form has had all relevant inputs tested to confirm that they will request input when left empty with the email input specifically requesting for an email format with an @ symbol.
 
-    - The submit button is confirmed to lead to the thank you page upon successful completion of all relevant inputs on the form.
+- The submit button is confirmed to lead to the thank you page upon successful completion of all relevant inputs on the form.
 
 Along with feature testing I have also run lighthouse tests, these have come back very positive as seen below with the screen captures.
 
