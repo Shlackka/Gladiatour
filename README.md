@@ -157,6 +157,10 @@ The site has been deployed to GitHub pages, in order to do this the following st
 
 - The deployed site can be found at **https://shlackka.github.io/Gladiatour/index.html**
 
+If you wish to fork the repo this can be achieved by using the "Fork" button at the top of the repo.
+
+If you wish to clone the repo this can be achieved by using the drop down on the green "code" button and copying the URL into a workspace of your choosing such as **[Gitpod](https://www.gitpod.io/)** or **[CodeAnywhere](https://codeanywhere.com/)**.
+
 ## Credits 
 
 In the below section I will go over all of the external sources where I either drew inspiration or used their tools to assist in the development of Gladiatour.
