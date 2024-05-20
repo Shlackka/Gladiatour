@@ -182,3 +182,5 @@ In the below section I will go over all of the external sources where I either d
 - The audio clips for the information page were created using **[Voice Generator](https://voicegenerator.io/)**.
 
 - All images including those used as backgrounds have been created using the DALL-E AI image creator through **[ChatGPT](https://chatgpt.com/?oai-dm=1)** by OpenAI.
+
+- Favicon was created using **[Red Ketchup](https://redketchup.io/favicon-generator)**.
