@@ -147,8 +147,32 @@ To the best of my knowledge after testing all aspects of the site I have been un
 
 ## Deployment
 
-## Credits
+The site has been deployed to GitHub pages, in order to do this the following steps were completed.
+
+- From within the Gladiatour repo I navigated to the settings tab
+
+- In settings navigate to the Pages section under "Code and automation"
+
+- Once in Pages, I chose to deploy from a branch as my source and then chose the Main branch before clicking save
+
+- The deployed site can be found at **https://shlackka.github.io/Gladiatour/index.html**
+
+## Credits 
+
+In the below section I will go over all of the external sources where I either drew inspiration or used their tools to assist in the development of Gladiatour.
 
 ### Content
 
+ - The text for the main index page and information page was taken from **[ChatGPT](https://chatgpt.com/?oai-dm=1)** with minor changes by myself. (All text within the README has been typed by myself).
+
+ - **[ChatGPT](https://chatgpt.com/?oai-dm=1)** has been used to help explain any concepts I may have been struggling to understand, this was used more at the beginning of development with it tapering off as I became more confident.
+
+ - The icons for the footer and the arrow for the dropdown on mobile were taken from **[Font Awesome](https://fontawesome.com/)**.
+
+ - For the initial development of this site I took inspiration from the practice project I completed prior, which can be found **[here](https://github.com/Shlackka/Love-Running)**.
+
 ### Media
+
+- The audio clips for the information page were created using **[Voice Generator](https://voicegenerator.io/)**.
+
+- All images including those used as backgrounds have been created using the DALL-E AI image creator through **[ChatGPT](https://chatgpt.com/?oai-dm=1)** by OpenAI.
