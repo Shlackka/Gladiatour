@@ -1,6 +1,6 @@
 # Gladiatour
 
-Link to the website is **[here](https://shlackka.github.io/Gladiatour/index.html)**.
+A link to the website is **[here](https://shlackka.github.io/Gladiatour/index.html)**.
 
 Gladiatour is an educational website designed to immerse visitors into the interesting history of th gladiatorial games and the people who fought in them. The site has accessibility as one of it's key features meaning not only should it flow nicely but it should be enjoyable to all, more of these features will be highlighted below.
 
@@ -170,6 +170,8 @@ In the below section I will go over all of the external sources where I either d
  - The icons for the footer and the arrow for the dropdown on mobile were taken from **[Font Awesome](https://fontawesome.com/)**.
 
  - For the initial development of this site I took inspiration from the practice project I completed prior, which can be found **[here](https://github.com/Shlackka/Love-Running)**.
+
+ - Fonts for the site were found using **[Google Fonts](https://fonts.google.com/)**.
 
 ### Media
 

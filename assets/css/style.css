@@ -252,6 +252,8 @@ main {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 
 .pronunciation {
@@ -502,6 +504,8 @@ main {
     .glad-image {
         width: 400px;
         height: 400px;
+        max-width: 100%;
+        height: auto;
     }
 
     .pronunciation {
